@@ -1,0 +1,126 @@
+.upload2_header{
+	width: 100%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 8%;
+}
+.upload2_schedule{
+	width: 5%;
+	display: inline-block;
+	margin-right: 25%;
+}
+.upload2_circle{
+	padding: 1.5vw;
+	border-radius: 50%;	
+	border: 2px solid #000;
+	position: absolute;
+	top: 19.5%;
+}
+.upload2_sd3{
+	margin-right: 0;
+}
+.upload2_step{
+	font-size: 1.5vw;
+	position: absolute;
+	top: 20%;
+	left: 38%;
+}
+.upload2_text{
+	font-size: 1vw;
+	position: absolute;
+	top: 16%;
+	left: 42%;
+}
+.upload2_content{
+	width: 100%;
+	padding-bottom: 3%;
+}
+.upload2_pic{
+	width: 65%;
+}
+/*上傳圖片修改名稱區塊*/
+.upload2_img_name_internal{
+	width: 27%;
+	float: left;
+	margin-right: 5%;
+}
+/*上傳圖片修改名稱上邊區塊*/
+.upload2_img_name_internal_l{
+	padding: 8.1vw 8.7vw;
+	border: 1px solid #000;
+	width: 25%;
+	display: inline-block;
+}
+.upload2_pic_xx{
+	position: absolute;
+	font-size: 2vw;
+	left: 61.5%;
+	top: -5%;
+	color: #f00;
+	cursor: pointer;
+}
+/*上傳圖片修改名稱右邊區塊*/
+.upload2_img_name_internal_r{
+	width: 100%;
+	display: inline-block;
+}
+.upload2_drop_down_menu{
+	width: 100%;
+	background-color: #aaa;
+}
+.upload2_gender{
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+.upload2_product{
+	margin-left: 10%;
+}
+.upload2_title{
+	width: 70%;
+	margin: auto;
+}
+.upload2_pic_title{
+	width: 100%;
+	margin-bottom: 1%;
+}
+.upload2_toPage1{
+	padding: .5vw 5vw;
+	font-size: 1.5vw;
+	background-color: #aaa;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	border: 2px solid transparent;
+	margin: 5% 0 0 20%;
+}
+.upload2_toPage1:hover{
+	background-color: #fff;
+	border: 2px solid #000;
+	cursor: pointer;
+	color: #000;
+}
+.upload2_toPage3{
+	padding: .5vw 5vw;
+	font-size: 1.5vw;
+	background-color: #009;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	border: 2px solid transparent;
+	margin: 5% 0 0 15%;
+}
+.upload2_toPage3:hover{
+	background-color: #fff;
+	border: 2px solid #000;
+	cursor: pointer;
+	color: #000;
+}
+.upload2_hr1{
+	margin-left: 25%;
+	width: 20%;
+	margin-top: -1%;
+}
+.upload2_hr2{
+	margin-left: 55%;
+	width: 20%;
+}

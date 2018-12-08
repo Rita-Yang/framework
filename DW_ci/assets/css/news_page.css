@@ -1,0 +1,76 @@
+.a_content{
+    width: 80%;
+    margin: 5% auto;
+}
+.a_bigimg{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+.a_text_area{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px dotted #333;
+    padding: 5%;
+}
+.a_title{
+    text-align: center;
+    font-size: 2vw;
+    color: #093285;
+}
+.a_text{
+    text-indent: 2vw;
+    font-size: 1vw;
+}
+.a_p_area{
+    display: inline-block;
+    width: 22%; 
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.a_p_text{
+    text-align: center;
+}
+
+/*左邊錶帶標籤*/
+.p_left_band{
+    width: 18%;
+    position: fixed; 
+    display: none;   
+    left: 3%;
+    top: 26.7%;
+}
+.p_left_band > div{
+    width: 85%;
+    margin-bottom: 10%;
+    cursor: pointer;
+    position:relative;
+    transition: .3s;
+}
+.p_left_band > div:hover{
+    margin-left: 15%;
+}
+.p_left_band .nsub{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    color: #fff;
+    font-size: 1.3em;
+}
+.p_left_band img{
+    width: 100%;
+}
+.p_center{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-left: -150px;
+}
+.p_pagination{
+    text-align: center;
+}
+.p_pagination > li{
+    display: inline-block;
+    margin-left: 1%; 
+}

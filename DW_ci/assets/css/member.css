@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;;
+}
+body{
+    background: url('../../assets/images/member_bg.png') center center no-repeat fixed;
+    background-size:cover;
+}
+.member{
+    width: 50%;
+    margin: 0px 25%;
+    padding:30px 5%;
+    background-color: rgba(255,255,255,0.95);
+    overflow: hidden;
+    border-radius: 10px;
+    border:1px solid #aaa;
+    box-shadow: 3px 3px 7px rgba(0,0,0,.15);
+}
+.m_tb{
+    width: 80%;
+    margin:auto;
+}
+.m_tb tr td{
+    position:relative;
+    padding: 3%;
+}
+#btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    color:#fff;
+    border-radius: 10px;
+    border:1px solid #093285;
+    background-color:#093285;
+    transition: .3s;
+    cursor: pointer;
+}
+#btn:hover{
+    color:#333;
+    background-color:#fff;
+    border:1px solid #333;			
+}
+#hint, #chint{
+    position:absolute;
+    padding-left: 5px;
+    display: none;
+}
+/*左邊錶帶標籤*/
+.p_left_band{
+    width: 18%;
+    position: fixed;
+    display:none;	
+    left: 3%;
+    top: 26.7%;
+}
+.p_left_band > div{
+    width: 85%;;
+    margin-bottom: 10%;
+    cursor: pointer;
+    position:relative;
+    transition: .3s;
+}
+.p_left_band > div:hover{
+    margin-left: 15%;
+}
+.p_left_band .nsub{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    color: #fff;
+    font-size: 1.3em;
+}
+.p_left_band img{
+    width: 100%;
+}
+.ableinput1{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #aaa;	
+    background-color:#e5e5e5;		
+}	
+.ableinput1:focus{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #aaa;	
+    background-color:#fff;			
+}	
+.ableinput2{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #aaa;	
+    background-color:#e5e5e5;		
+}	
+.ableinput2:focus{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #aaa;	
+    background-color:#fff;			
+}	
+.disableinput{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #aaa;	
+    background-color:#e5e5e5;		
+}
+.disableinput:input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #aaa;	
+    background-color:#fff;		
+}
+.ui-datepicker-trigger{
+    padding: 5px 10px;
+    margin-left: 5px;
+    color:#fff;
+    background-color:#093285;
+       border:1px solid #093285;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.ui-datepicker-trigger:hover{
+    padding: 5px 10px;
+    background-color:#fff;
+    color:#333;
+    border:1px solid #333;
+    border-radius: 10px;
+}
+#mobile-error, #address-error{
+    position: absolute;
+}

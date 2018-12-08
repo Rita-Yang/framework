@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	text-decoration:none;
+}
+
+.login_bg{
+	background-image: url(../images/loginRegister/loginback.jpg);
+	width: 100%;
+	height: 775px;
+	transition: 1.8s;
+}
+.login_bg_img{
+	width: 82.142857142857142857142857142857%;
+	height: 750px;
+	margin: 0 25%;
+	padding: 71px 160px;
+	position: relative;
+}
+.login_area, .register_area{
+	width: 628px;
+	height: 628px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
+	border-radius: 50%;
+	border: 1px solid #fff;
+	transition: 1.5s;
+	backface-visibility: hidden;
+	position: absolute;
+}
+.login_area{
+	transform: rotateY(0deg);
+	background: url(../images/loginRegister/login_circle.jpg);
+}
+.register_area{
+	background: url(../images/loginRegister/register_circle.jpg);
+	transform: rotateY(-180deg);
+}
+.login_h2, .register_h2{
+	text-align: center;
+	margin-left: 41.5%;
+	margin-top: 15%;
+	display: inline-block;
+	padding-right: 24%;
+	margin-bottom: 7%;
+	letter-spacing: 3px;
+	color: #333;
+}
+.login_h2 > div{
+	display: inline-block;
+}
+
+.login_tb, .register_tb{
+	width: 365px;
+	z-index: 2;
+	margin-left: 20%;
+}
+span{
+	color: #f00;
+	display: none;
+}
+.login_remeber{
+	float: right;
+	margin-top: 25%;
+	margin-right: 20%;
+}
+.login_remeber_btn{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #aaa;
+}
+.login_remeber_btnin{
+	width: 11px;
+	height: 11px;
+	background-color: #da001b;
+	margin: auto;
+	margin-top: 3.5px;
+	display: none;
+}
+.login_remeber_ac{
+	display: inline-block;
+	color: #da001b;
+}
+.login_input, .register_input{
+	width: 100%;
+	padding: 3.5% 2% 3.5% 2%;
+	font-size: 1vw;
+	margin-bottom: 5%;
+	border: 1px solid #bbbbbb;
+	background-color: transparent;
+	color:#a3a3a3;
+	border-radius: 6px;
+	transition:.5s;
+}
+
+/*輸入欄位的瀏覽器預設外框隱藏*/
+input{
+	outline: none;
+}
+/*輸入欄位內的提示字點了會消失*/
+input:focus::-webkit-input-placeholder { color:transparent; transition: .7s;}
+
+.active{
+	background-color: #fff;
+	color:#333;
+	border-color: #727272;
+	transform: scale(1.07);
+}
+
+.login_tb td span, .register_tb td span{
+	position:absolute;
+	margin-top:-20px;
+	
+}
+.login_input:hover{
+	border: 1px solid #727272;
+}
+.login_btn, .register_btn{
+	width: 100%;
+	padding: 3.5% 0;
+	font-size: 1vw;
+	color: #fff;
+	background-color: #093285;
+	margin-top: 30%;
+	cursor: pointer;
+	border-radius: 6px;
+	transition: .3s;
+	border: 1px solid #093285;
+}
+.register_btn{
+	margin-top: 7%;
+}
+
+.login_btn:hover, .register_btn:hover{
+	border: 1px solid #000;
+	color: #333;
+	background-color: #fff;
+}
+
+/*切換登入註冊的圈圈*/
+.change_to_rg, .change_to_lg{
+	color:#333;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;	
+	display: block;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: #fff;
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, .2);
+	text-align: center;
+	margin-top: -34%;
+	padding-top: 6%;
+	position: relative;
+	transition: .3s;
+}
+.change_to_rg{
+	margin-left: 93%;
+	background-image: url(../images/loginRegister/change_btn1.jpg);
+}
+.change_to_lg{
+	margin-left: -7%;
+	margin-top: -43%;
+	background-image: url(../images/loginRegister/change_btn2.jpg);
+}
+
+.change_to_rg:hover, .change_to_lg:hover{
+	transform: scale(1.1);
+}
+.don1, .don2{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: transparent;
+	border:1px solid #d6d6d6;
+	position: absolute;
+	top: 7%;
+	left: 48.3%;
+	
+}
+.don1{
+	background-image: url(../images/loginRegister/login_don1.jpg)  ;
+}
+.don2{
+	background-image: url(../images/loginRegister/login_don2.jpg)  ;
+}
+/*換頁面按鈕hover效果*/
+.loader-ring-light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -54px;
+  margin-left: 5px;
+}
+.loader-ring-light:hover{
+	animation: rotate-360 1.5s linear infinite;
+	box-shadow: 0 2px 0 #ab1729 inset;
+}
+.area120{
+	display: none;
+}
+
+@keyframes rotate-360 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.flip_lg{
+	transform: rotateY(180deg);
+}
+.flip_rg{
+	transform: rotateY(0deg);
+}
+.hidden{
+	display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+
+

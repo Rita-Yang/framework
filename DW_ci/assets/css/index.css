@@ -1,0 +1,194 @@
+/*電腦與共用*/
+body{
+	margin-top: 0;
+}
+.index_box{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/*首頁BANNER*/
+.slider{
+	width: 100vw;
+	/*height: 89vh;*/
+	margin-top:100px;
+	overflow: hidden;
+	position:relative;
+}
+.slider img{
+	width: 100vw;
+}
+.banner-img{
+	width: 300%;
+	transition: .8s;
+}
+.btn-banner{
+	overflow: hidden;
+	/*background-color: rgba(0,0,0,.5);*/
+	position: absolute;
+	bottom: 50px;
+	left:50%;
+	margin-left: -45px;
+}
+.btn-banner span{
+	display: block;
+	float:left;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+	border: 1px solid #fff;
+	transition: .3s;
+}
+.btn-banner span:first-child{
+	background-color:#fff;
+}
+.btn-banner span:hover{
+	background-color:#fff;
+}
+.banner{	
+	float:left;
+	width: 100vw;
+	height: auto;
+	position: relative;
+	cursor: pointer;
+}
+.banner1-1{
+	position:absolute;
+	z-index: 102;
+	width: 30%;
+	bottom:10px;
+	left:3%;
+	z-index: 0;
+}
+.banner1-1 img{
+	width: 100%;
+}
+/*.btn-b1{
+	background-color: #b91428;
+
+	opacity: 1;
+}
+.btn-b2{
+	background-color: #000000;
+	opacity: 0;
+}
+.btn-b3{
+	background-color: #041e66;
+	opacity: 0;
+}*/
+.area120{
+	display: none;
+}
+.area265 img{
+	margin-bottom: -10px;
+}
+.area265 h2{
+	font-size:1.5em;
+}
+
+/*互動小遊戲*/
+/*.find, .find img{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.find .find_watch{
+	width: 20%;
+	position:absolute;
+	top: 30%;
+	left: 10%;
+}*/
+
+/*活動*/
+/*.activity{
+	float:left;
+	width: 100%;
+	height: 0;
+	padding:33.05%;
+	position:relative;
+	font-size: 0.8vw;
+}
+.act-title{
+	position: absolute;
+	font-size: 2em;
+	letter-spacing: 0.3em;
+	font-weight: bold;
+}
+#act-title1{
+	top: 12%;
+	left: 40.2%;	
+}
+#act-title2{
+	top: 46%;
+	left: 9.8%;	
+}
+#act-title3{
+	top: 90%;
+	left: 74%;	
+}
+.act-img{
+	position:absolute;
+}
+.act-img img{
+	width: 100%;
+	border: 5px solid #000;
+}
+#act-img1{
+	width: 17.8%;
+	top: 6.3%;
+	left: 14.1%;
+}
+#act-img2{
+	width: 21.5%;
+	top: 0.9%;
+	left: 60.8%;
+}
+.act-center{
+	display: table;
+	position: absolute;
+	top: 33.2%;
+	left: 39%;
+	width: 22%;
+	height: 33%;
+	background-color:#000;
+	text-align: center;
+}
+.act-center:hover{
+	background-color:rgba(255,255,255,.5);
+}
+.act-center:hover p{
+	color:#000;
+}
+.act-center p{
+	display:table-cell;
+	vertical-align: middle;
+	color: #fff;
+	font-size:2em;
+	letter-spacing: 0.5em;
+	padding:5%;
+}
+#act-img3{
+	width: 22.2%;
+	top: 32.9%;
+	left: 69%;
+}
+#act-img4{	
+	width: 20%;
+	top: 65.9%;
+	left: 17%;
+}
+#act-img5{
+	width: 14%;
+	top: 65.9%;
+	left: 61%;
+}*/
+/*平板*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+
+}
+/*手機*/
+@media only screen and (max-width: 480px){
+
+}

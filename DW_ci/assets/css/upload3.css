@@ -1,0 +1,127 @@
+.upload3_header{
+	width: 100%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.upload3_schedule{
+	width: 5%;
+	display: inline-block;
+	margin-right: 25%;
+}
+.upload3_circle{
+	padding: 1.5vw;
+	border-radius: 50%;	
+	border: 2px solid #000;
+	position: absolute;
+	top: 21.5%;
+}
+.upload3_sd3{
+	margin-right: 0;
+}
+.upload3_step{
+	font-size: 1.3vw;
+	position: absolute;
+	top: 20%;
+	left: 38%;
+}
+.upload3_text{
+	font-size: 1vw;
+	position: absolute;
+	top: 18%;
+	left: 72%;
+}
+.upload3_content{
+	width: 80%;
+	margin: 0 auto;
+}
+.upload3_contact{
+	text-align: center;
+	margin-bottom: 3%;
+}
+.upload3_contact > form > div{
+	font-size: 1vw;
+}
+.upload3_prompt{
+	color: #c00;
+	font-size: .8vw;
+}
+.upload3_enter{
+	width: 30%;
+	height: 2vw;
+	margin-bottom: 1%;
+	border: 1px solid #000;
+}
+.upload3_agree{
+	font-size: .8vw;
+}
+.upload3_notagree{
+	font-size: .8vw;
+	color: #c00;
+	display: none;
+}
+.upload3_notice{
+	width: 80%;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+.upload3_notice > h3{
+	margin-left: 1em;
+	font-size: 1.2vw;
+}
+.upload3_matter{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 1%;
+}
+.upload3_matter > p{
+	margin-left: 2em;
+	text-indent: -1.5em;
+	line-height: 1.5em;
+	font-size: .9vw;
+}
+.upload3_matter > p > a{
+	color: #00f;
+	text-decoration: underline;
+}
+.upload3_toPage2{
+	padding: .5vw 5vw;
+	font-size: 1.5vw;
+	background-color: #aaa;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	border: 2px solid transparent;
+	margin: 5% 0 0 20%;
+}
+.upload3_toPage2:hover{
+	background-color: #fff;
+	border: 2px solid #000;
+	cursor: pointer;
+	color: #000;
+}
+.upload3_finish{
+	padding: .5vw 5vw;
+	font-size: 1.5vw;
+	background-color: #009;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	border: 2px solid transparent;
+	margin: 5% 0 0 15%;
+}
+.upload3_finish:hover{
+	background-color: #fff;
+	border: 2px solid #000;
+	cursor: pointer;
+	color: #000;
+}
+.upload3_hr1{
+	margin-left: 25%;
+	width: 20%;
+	margin-top: -1%;
+}
+.upload3_hr2{
+	margin-left: 55%;
+	width: 20%;
+}

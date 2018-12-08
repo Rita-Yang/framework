@@ -1,0 +1,77 @@
+body{
+	background: url(../images/ContactUs/contact.png) 100% 100% no-repeat fixed;
+	background-size: 35%;
+}
+.ContactUs_content{
+	width: 60%;
+	margin: auto;
+	margin-top:50px;
+}
+.ContactUs_html{
+	color: #00f;
+}
+.ContactUs_title{
+	margin-bottom: 5%;
+	margin-left: 25%;
+}
+.ContactUs_inner{
+	margin: auto;
+	font-size: 1vw;
+}
+.ContactUs_nosee{
+	display: none;
+}
+.ContactUs_inner > form > div{
+	margin-bottom: 3%;
+}
+.ContactUs_span{
+	width: 30%;
+}
+.cs1{
+	margin-left: 2em;
+}
+.cs2{
+	margin-left: 1em;
+}
+.cs4{
+	margin-left: 2em;
+}
+.cs5{
+	margin-left: 2em;
+}
+.ContactUs_input{
+	width: 65%;
+	background-color: #eee;
+	border-radius: 3%;
+	border: none;
+	line-height: 2.5em;
+}
+.ContactUs_order_answer{
+	width: 80%;
+	padding-bottom: 20%;
+	resize: none;
+	margin-left: 2em;
+	border: 2px solid #eee;
+	border-radius: 2%;
+}
+.btn-default{
+    margin: 2% 0 0 20%;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #093285;
+    cursor:pointer;
+    border-radius: 7px;
+    border: 1px solid #093285;
+    transition: .3s;
+}
+.btn-default:hover{
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+}
+a{
+	color: #00f;
+}

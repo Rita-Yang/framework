@@ -1,0 +1,51 @@
+body{
+	background: url(../images/FAQ/faq.png) 100% 95% no-repeat fixed;
+	background-size: 35%;
+}
+.FAQ_content{
+	width: 80%;
+	margin: auto;
+	/*margin: 0 auto;*/
+}
+.FAQ_outer{
+	margin-bottom: 10%;
+}
+.FAQ_title{
+	/*text-align: center;*/
+	margin-bottom: 2%;
+}
+.FAQ_title > h2{
+	color: #ab1729;
+}
+.FAQ_text{
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, .7);
+	margin-bottom: 5%;
+	/*display: none;*/
+}
+.FAQ_click{
+	text-align: justify;
+}
+.FAQ_click > h3{
+	cursor: pointer;
+	display: table;
+	position:relative;
+	margin-left:15px;
+}
+.FAQ_click > h3 span{
+	position:absolute;
+	left: -15px;
+	top: 0;
+}
+.FAQ_inner{
+	border: 1px dotted #333;
+}
+.FAQ_click > p{
+	line-height: 35px;
+	display: none;
+	width: 90%;
+	margin: auto;
+}
+a{
+	color: #00f;
+}
