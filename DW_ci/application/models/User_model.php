@@ -3,20 +3,20 @@
 class User_model extends CI_Model{
 
     public function __construct(){
+        parent::__construct();
         $this->load->database();
     }
 
     public function get($email = NULL){
-        $sql = "";
         $myData = array();
         if(!empty($_POST['l_email']) && !empty($_POST['l_pwd'])){
             $l_email = $this->db->escape_str( $_POST['l_email'] );
             $l_pwd = sha1( $_POST['l_pwd'] );
-            $sql = "SELECT * FROM members WHERE email = '$l_email' AND password = '$l_pwd'";
+           $query =  $this->db->get_where('members', array('email' => $l_email, 'password' => $l_pwd));
         }else{
-            $sql = "SELECT * FROM members WHERE email = '$email'";
+            $l_email = $this->db->escape_str( $_POST['l_email'] );
+            $query =  $this->db->get_where('members', array('email' => $l_email));
         }
-        $query = $this->db->query($sql);
         foreach($query->result_array() as $row){
             $myData = $row;    
         }
@@ -26,9 +26,8 @@ class User_model extends CI_Model{
     public function checkEmail($email = NULL){
         // 串註冊
         $em = $this->db->escape_str( $email );
-        $sql = "SELECT email FROM members WHERE email = '$em'";
-        $query = $this->db->query($sql);
-        $count = $query->num_rows();
+        $query = $this->db->get_where('members', array('email' => $em));
+        $count = $this->db->count_all($query);
         
         return $count;
     }

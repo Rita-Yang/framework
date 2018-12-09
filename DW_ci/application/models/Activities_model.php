@@ -2,17 +2,25 @@
 
 class Activities_model extends CI_Model {
 
-    public function __construct(){
+    public function __construct()
+    {
+        parent::__construct();
         $this->load->database();
     }
 
     public function get($showimg = NULL, $morebtn = NULL, $startimg = NULL){
-        $sql = "SELECT * FROM activities WHERE act_check = 1 ORDER BY sid DESC LIMIT $startimg, $showimg";
-        $query = $this->db->query($sql);
+        $this->db->select('*');
+        $this->db->from('activities');
+        $this->db->where('act_check', 1);
+        $this->db->order_by('sid DESC');
+        $this->db->limit($startimg, $showimg);
+        $query = $this->db->get();
 
-        $sql2 = "SELECT 1 FROM activities WHERE act_check = 1";
-        $query2 = $this->db->query($sql2);
-        $total = $query2->num_rows();
+        $this->db->select('1');
+        $this->db->from('activities');
+        $this->db->where('act_check', 1);
+        $query2 = $this->db->get();
+        $total = $this->db->count_all($query2);
         $maxMore = !empty($morebtn) ? ceil(($total-32)/$showimg) : ceil($total/$showimg);
 
         $mydata = array(
@@ -28,8 +36,11 @@ class Activities_model extends CI_Model {
     }
 
     public function get_Product($p_cate = NULL){
-        $sql = "SELECT * FROM products WHERE p_category = $p_cate";
-        $query = $this->db->query($sql);
+
+        $this->db->select('*');
+        $this->db->from('products');
+        $this->db->where('p_category', $p_cate);
+        $query = $this->db->get();
 
         $mydata = array();
 
